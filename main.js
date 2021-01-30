@@ -16,7 +16,7 @@ for(let i = 1;i<=5;i++){
 
 /* Wiring up the Darken/Lighten button */
 btn.onclick = function(){
-    const btnClass = getAtrribute("class");
+    const btnClass = getAttribute("class");
     if(btnClass === "dark"){
         btnClass = setAtrribute("class","light");
         btn.textContent = "Lighten";
